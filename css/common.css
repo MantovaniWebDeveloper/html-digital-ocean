@@ -2,6 +2,10 @@
 .bgBianco {
   background-color: #fff;
 }
+.bgBluchiaro {
+  background-color: #0069ff;
+}
+
 
 /*COLORI TESTO */
 .testoBianco {
@@ -10,8 +14,21 @@
 .testoBlu {
   color: #303fd9;
 }
-
-
+.testoGrigio {
+  color: grey;
+}
+/*BUTTON*/
+.btnForm {
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+.btnSignUp {
+  border: none;
+  color: lightgrey;
+  font-size: 15px;
+   box-shadow: 0 0 1px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.24);
+}
 /*MARGINI*/
 .mt15 {
   margin-top: 15px;
@@ -39,4 +56,8 @@
 }
 .mr15 {
   margin-right: 15px;
+}
+/*BORDER*/
+.bradius5 {
+  border-radius: 5px;
 }
