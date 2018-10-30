@@ -3,7 +3,6 @@
 }
 header {
   height: 100px;
-  position: fixed;
   width: 100%;
 }
 nav {
@@ -14,6 +13,7 @@ nav {
   line-height: 100px;
 }
 #jumboWrapper {
+  padding-top: 100px;
   background: url("../assets/hero-background.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,4 +74,10 @@ nav {
         position: relative;
         bottom: 50px;
     }
+}
+/*****************************/
+
+.wrapperTextJumbo {
+  background-color: red;
+  height: 100px;
 }
