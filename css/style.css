@@ -59,7 +59,7 @@ nav {
     display: none;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid lightblue;
+    border: 1px solid #303fd9;
 }
 /*MEDIA QUERY PER LA NAVBAR*/
 @media screen and (max-width: 992px) {
@@ -70,6 +70,8 @@ nav {
   #hamburger-menu {
         display: inline-block;
         line-height: 0;
-        color: lightblue;
+        color: #303fd9;
+        position: relative;
+        bottom: 50px;
     }
 }
