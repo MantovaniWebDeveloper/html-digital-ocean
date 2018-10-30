@@ -1,0 +1,16 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  height: 100%;
+}
+#menuLeft {
+  background-color: red;
+}
+#menuRight {
+  background-color: blue;
+}
+#menuLeft ul li ,
+#menuRight ul li{
+  display: inline-block;
+}

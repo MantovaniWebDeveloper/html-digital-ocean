@@ -1,0 +1,38 @@
+/*COLORI SFONDO*/
+.bgBianco {
+  background-color: #fff;
+}
+
+/*COLORI TESTO */
+.testoBianco {
+  color: #fff;
+}
+
+/*MARGINI*/
+.mt15 {
+  margin-top: 15px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt45 {
+  margin-top: 45px;
+}
+.mt60 {
+  margin-top: 60px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mb100 {
+  margin-bottom: 100px;
+}
+.mb200 {
+  margin-bottom: 200px;
+}
+.mr15 {
+  margin-right: 15px;
+}
