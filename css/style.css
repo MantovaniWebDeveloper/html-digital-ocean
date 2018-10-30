@@ -76,8 +76,14 @@ nav {
     }
 }
 /*****************************/
-
-.wrapperTextJumbo {
-  background-color: red;
-  height: 100px;
+.wrapperContenutoJumbo {
+  height: 400px;
+}
+.wrappertestoJumboInterno {
+  background-color: orange;
+  height: 100%;
+}
+.wrapperFormJumboInterno {
+  background-color: green;
+  height: 100%;
 }
