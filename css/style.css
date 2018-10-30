@@ -2,15 +2,74 @@
   font-family: 'Roboto', sans-serif;
 }
 header {
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+nav {
   height: 100%;
 }
+.wrapper_menu {
+  height: 100%;
+  line-height: 100px;
+}
+#jumboWrapper {
+  background: url("../assets/hero-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+.navbar-header img {
+  height: 40px;
+  margin-bottom: 10px;
+}
 #menuLeft {
-  background-color: red;
+  height: 100%;
+
+  text-align: left;
 }
 #menuRight {
-  background-color: blue;
+  height: 50px;
+
+  text-align: right;
 }
 #menuLeft ul li ,
 #menuRight ul li{
   display: inline-block;
+  font-size: 16px;
+}
+#menuLeft ul li a:hover,
+#menuRight ul li a:hover{
+  color: lightblue;
+  text-decoration: none;
+}
+#menuRight ul li:last-child a{
+  background: none;
+  transition: 1s;
+}
+#menuRight ul li:last-child a:hover{
+  background: lightblue;
+  color: white;
+}
+#wrapperHam {
+  float: right;
+}
+#hamburger-menu {
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+}
+/*MEDIA QUERY PER LA NAVBAR*/
+@media screen and (max-width: 992px) {
+  #menuLeft ul li ,
+  #menuRight ul li {
+    display: none;
+  }
+  #hamburger-menu {
+        display: inline-block;
+        line-height: 0;
+        color: lightblue;
+    }
 }
