@@ -22,6 +22,9 @@
 .testoGrigio {
   color: grey;
 }
+.testoGrigioChiaro {
+  color: lightgrey;
+}
 /*BUTTON*/
 .btnForm {
   border: none;
