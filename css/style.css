@@ -21,7 +21,10 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: 100%;
+}
+#jumboWrapper .container{
+  padding-bottom: 100px;
 }
 .navbar-header img {
   height: 40px;
@@ -73,7 +76,7 @@ nav {
         line-height: 0;
         color: #303fd9;
         position: relative;
-        bottom: 50px;
+        top: -15px;
     }
 }
 /*****************************/
@@ -81,7 +84,6 @@ nav {
   height: 400px;
 }
 .wrappertestoJumboInterno {
-  height: 100%;
 }
 .wrappertestoJumboInterno h2 {
   font-size: 62px;
@@ -94,7 +96,6 @@ nav {
   font-weight: 200;
 }
 .wrapperFormJumboInterno {
-  height: 100%;
   border-radius: 5px;
 }
 
@@ -103,10 +104,10 @@ nav {
   text-align: center;
 }
 .wrapperFormJumboInterno  {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .wrapperFormJumboInterno form input {
     margin-bottom: 15px;
@@ -128,3 +129,41 @@ nav {
   text-decoration: underline;
   color: #0069ff;
 }
+/*MEDIA QUERY PER il JUMBO*/
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .wrappertestoJumboInterno h2 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .wrapperFormJumboInterno {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+  .wrapperFormJumboInterno h4 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .wrappertestoJumboInterno h2 {
+      font-size: 40px;
+      text-align: left;
+      font-weight: bold;
+  }
+  .wrappertestoJumboInterno p {
+      font-size: 20px;
+  }
+  .wrapperFormJumboInterno form h4 {
+      font-size: 40px;
+  }
+  .contentFormJumbo {
+    margin-top: 30px;
+  }
+}
+/*****************************/
