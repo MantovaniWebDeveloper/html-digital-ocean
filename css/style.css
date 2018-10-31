@@ -7,6 +7,8 @@
 header {
   height: 100px;
   width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 nav {
   height: 100%;
@@ -16,7 +18,7 @@ nav {
   line-height: 100px;
 }
 #jumboWrapper {
-  padding-top: 100px;
+  padding-top: 200px;
   background: url("../assets/hero-background.svg");
   background-repeat: no-repeat;
   background-size: cover;
