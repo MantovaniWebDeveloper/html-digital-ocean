@@ -205,18 +205,6 @@ nav {
   }
 
 }
-@media screen and (max-width: 768px) {
-
-  #clienti img {
-    display: block;
-    margin: 0 auto;
-  }
-
-}
-@media screen and (max-width: 445px) {
-
-
-}
 /*****************************/
 #deploy {
   height: 800px;
@@ -230,4 +218,15 @@ nav {
 #deploy .bgBluchiaro,
 #deploy .bgGrigio {
   height: 400px;
+}
+#aside div {
+  font-size: 20px;
+  padding: 20px;
+  border-left: 2px solid lightgrey;
+  margin: 0 auto;
+}
+#aside div:first-child {
+  border-left: 2px solid blue;
+}
+.wrapper4 {
 }
