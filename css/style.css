@@ -170,9 +170,9 @@ nav {
 }
 /*****************************/
 #clienti {
-  height: 280px;
+  height: auto;
 }
-#containerLogoClienti {
+/*#containerLogoClienti {
   height: 100%;
 }
 .grid-logo-item {
@@ -183,39 +183,38 @@ nav {
 .grid-logo-item img{
   max-width: 100%;
   height: 70px;
+}*/
+#clienti img{
+  max-width: 100%;
+  height: auto;
+}
+#ultimo {
+  max-width: 100%;
+  height: auto;
+}
+.centramento {
+  height: 200px;
+  line-height: 200px;
 }
 
-
 /*MEDIA QUERY PER il SECTION CLIENTI*/
-@media screen and (max-width: 768px) {
-  #containerLogoClienti {
-    padding-left: 15px;
-    padding-right: 15px;
+@media screen and (max-width: 992px) {
+  #clienti img {
+    display: block;
+    margin: 0 auto;
   }
-  .grid-logo-item {
-     width: calc(100% / 2);
-     padding: 5px;
-  }
-  .grid-logo-item img{
-    max-width: 100%;
-    height: auto;
-    padding: 0 20px;
 
-  }
-  #containerLink div {
-    padding-bottom: 60px;
-  }
-  #splunkIMG{
-    padding-top: 30px;
-    padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+
+  #clienti img {
+    display: block;
+    margin: 0 auto;
   }
 
 }
 @media screen and (max-width: 445px) {
 
-  .grid-logo-item img{
-    max-width: 100%;
-  }
 
 }
 /*****************************/

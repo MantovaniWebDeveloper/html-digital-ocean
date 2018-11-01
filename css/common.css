@@ -66,6 +66,18 @@
 .mr15 {
   margin-right: 15px;
 }
+/*PADDING*/
+.pt15 {
+  padding-top: 15px;
+}
+.pt30 {
+  padding-top: 30px;
+}
+.pb30 {
+  padding-bottom: 30px;
+}
+
+/**********/
 /*BORDER*/
 .bradius5 {
   border-radius: 5px;
