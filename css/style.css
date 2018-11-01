@@ -228,5 +228,9 @@ nav {
 #aside div:first-child {
   border-left: 2px solid blue;
 }
-.wrapper4 {
+/*MEDIA QUERY PER il SECTION DELOY*/
+@media screen and (max-width: 768px) {
+  .wrapper4 div {
+    margin-top: 30px;
+  }
 }
