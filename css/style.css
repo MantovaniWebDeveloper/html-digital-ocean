@@ -246,7 +246,7 @@ nav {
 }
 #developers img {
   position: relative;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 #developers #imgBox:before {
@@ -255,7 +255,8 @@ nav {
   color: lightgrey;
   float: left;
   position: absolute;
-  top: 50%;
+  top: 40%;
+  left: 0%;
 }
 #developers #imgBox:after {
   content: ">";
@@ -263,6 +264,39 @@ nav {
   color: black;
   float: right;
   position: absolute;
-  top: 50%;
-  right: 0;
+  top: 40%;
+  right: 0%;
+}
+#imgBox p {
+  font-size: 15px;
+}
+#wrapperDot {
+  text-align: center;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  margin-left: 10px;
+  background-color: none;
+  border-radius: 50%;
+  border: 2px solid #0069ff;
+  display: inline-block;
+}
+#wrapperDot span:first-child {
+  background-color: #0069ff;
+}
+
+/*MEDIA QUERY PER il SECTION DEVELOPERS*/
+@media screen and (max-width: 768px) {
+  #imgBox img {
+    width: 100%;
+  }
+  #developers #imgBox:before {
+    display: none;
+
+  }
+  #developers #imgBox:after {
+    display: none;
+
+  }
 }
