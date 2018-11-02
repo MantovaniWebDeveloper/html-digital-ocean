@@ -19,6 +19,9 @@
 .testoBluChiaro {
   color: #0069ff;
 }
+.testoBluOpaco {
+  color: rgba(3,27,78,.7);
+}
 .testoGrigio {
   color: grey;
 }
