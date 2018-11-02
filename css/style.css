@@ -298,6 +298,9 @@ nav {
   }
 }
 /*******************/
+#business h2 {
+  font-size: 40px;
+}
 .wrapBusiness h4 {
   font-size: 20px;
   font-weight: bold;
@@ -313,4 +316,21 @@ nav {
   color: lightblue;
   font-size: 16px;
   text-decoration: none;
+}
+#service {
+  background: linear-gradient(180deg,#0047c6 0,#001d99);
+}
+#service .container{
+  background: url("../assets/world.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+}
+#service h2 {
+  font-size: 40px;
+}
+table tr:first-child {
+  border: none;
 }
