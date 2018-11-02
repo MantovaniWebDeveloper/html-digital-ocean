@@ -285,7 +285,6 @@ nav {
 #wrapperDot span:first-child {
   background-color: #0069ff;
 }
-
 /*MEDIA QUERY PER il SECTION DEVELOPERS*/
 @media screen and (max-width: 768px) {
   #imgBox img {
@@ -293,10 +292,25 @@ nav {
   }
   #developers #imgBox:before {
     display: none;
-
   }
   #developers #imgBox:after {
     display: none;
-
   }
+}
+/*******************/
+.wrapBusiness h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.wrapBusiness p {
+  font-size: 16px;
+}
+.wrapBusiness a {
+  color: #0069ff;
+  font-size: 16px;
+}
+.wrapBusiness a:hover {
+  color: lightblue;
+  font-size: 16px;
+  text-decoration: none;
 }
