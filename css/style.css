@@ -331,6 +331,22 @@ nav {
 #service h2 {
   font-size: 40px;
 }
-table tr:first-child {
-  border: none;
+table td:first-child {
+  border-top: 0px ;
+  /*E' SBAGLIATO IMPORTANT MA NON HO PROVATO TUTTO PER TIRARE VIA IL
+  BORDER-TOP :()*/
+}
+table td:nth-child(2) {
+  font-size: 13px;
+  color: lightgrey;
+}
+table td:nth-child(3) {
+  text-align: right
+}
+table td a {
+  color:lightblue;
+}
+table td a:hover {
+  text-decoration: none;
+  color: #0069ff;
 }
