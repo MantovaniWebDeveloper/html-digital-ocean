@@ -410,7 +410,7 @@ table td a:hover {
 #topFooter {
   background: linear-gradient(180deg,#0047c6 0,#001d99);
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom : 40px;
 
 }
 #topFooter a {
@@ -419,4 +419,14 @@ table td a:hover {
 #topFooter a:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: #0069ff;
+}
+#bottomFooter {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#bottomFooter ul li {
+  list-style-type: none;
+}
+#bottomFooter ul li a{
+color: #f3f5f9;
 }
