@@ -428,10 +428,22 @@ table td a:hover {
   list-style-type: none;
   margin-bottom: 10px;
 }
-#bottomFooter ul li a{
+#bottomFooter ul li a {
   color: grey;
 }
+#menuSocial li a:hover,
 #bottomFooter ul li a:hover{
   text-decoration: none;
   color: #fff;
+}
+#bottomFooter img {
+  max-width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+#menuSocial li {
+  display: inline;
+  margin-right: 15px;
+  color: grey;
+  font-size: 20px;
 }
