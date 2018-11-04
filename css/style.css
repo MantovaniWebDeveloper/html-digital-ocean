@@ -326,15 +326,9 @@ nav {
   background-size: cover;
   background-position: center;
   height: 100%;
-
 }
 #service h2 {
   font-size: 40px;
-}
-table td:first-child {
-  border-top: 0px ;
-  /*E' SBAGLIATO IMPORTANT MA NON HO PROVATO TUTTO PER TIRARE VIA IL
-  BORDER-TOP :()*/
 }
 table td:nth-child(2) {
   font-size: 13px;
@@ -348,5 +342,81 @@ table td a {
 }
 table td a:hover {
   text-decoration: none;
+  color: #0069ff;
+}
+@media screen and (max-width: 768px) {
+  .wrapBusiness {
+    margin-top: 30px;
+  }
+}
+#rockerBox {
+
+}
+#rockerBox > div {
+  padding: 40px;
+  border-radius: 5px;
+}
+#rockerBox:before {
+  content: "<";
+  font-size:50px;
+  color: lightgrey;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+#rockerBox:after {
+  content: ">";
+  font-size:50px;
+  color: black;
+  float: right;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+#rockerBox h2 {
+  font-size: 40px;
+}
+#rockerBox img {
+  max-width: 100%;
+  height: auto;
+}
+#rockerBox p {
+  font-size: 22px;
+}
+#rockerBox a {
+  color: #0069ff;
+}
+#rockerBox a:hover {
+  text-decoration: none;
+  color: rgba(3,27,78,.7);
+}
+/*MEDIA QUERY PER il SECTION TEAMS*/
+@media screen and (max-width: 768px) {
+  #rockerBox h2{
+    font-size: 45px;
+  }
+  #rockerBox {
+    margin: 20px;
+  }
+  #rockerBox:before {
+    display: none;
+  }
+  #rockerBox:after {
+    display: none;
+  }
+}
+/*******************/
+#topFooter {
+  background: linear-gradient(180deg,#0047c6 0,#001d99);
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+#topFooter a {
+  transition: 0.3s;
+}
+#topFooter a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
   color: #0069ff;
 }
