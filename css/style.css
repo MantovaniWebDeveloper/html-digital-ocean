@@ -68,6 +68,12 @@ nav {
     border: 1px solid #303fd9;
 }
 /*MEDIA QUERY PER LA NAVBAR*/
+@media screen and (max-width: 1200px) {
+  #menuLeft ul li ,
+  #menuRight ul li {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 992px) {
   #menuLeft ul li ,
   #menuRight ul li {
