@@ -33,11 +33,11 @@ nav {
   margin-bottom: 10px;
 }
 #menuLeft {
-  height: 100%;
+  height: 100px;
   text-align: left;
 }
 #menuRight {
-  height: 100%;
+  height: 100px;
   text-align: right;
 }
 #menuLeft ul li ,
